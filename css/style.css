@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+h1{
+    text-align:center;
+    color: #bd897e;
+}
+
+h2{
+    text-align:left;
+    color: #bd897e;
+}
+
+.row{
+    align-content: center;
+}
+.column img{
+    filter: grayscale(100%);
+    float: left;
+    width: 15%;
+    padding: 15px;
+}   
+.column img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.calendar{
+    float: center;
+}
